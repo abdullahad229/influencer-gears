@@ -94,13 +94,15 @@ align-items: center;
 .name {
     color: rgb(32, 32, 32);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 30px;
+    opacity: .9;
 }
 .price {
     font-size: 30px;
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(32, 32, 32);
+    opacity: .9;
 }
 .rating {
     display: flex;
@@ -116,4 +118,10 @@ align-items: center;
 .see-more-button {
     margin-top: 50px;
     margin-bottom: 50px;
+    position: relative;
+    left: 490px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #da3c76;
+
 }
