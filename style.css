@@ -56,6 +56,11 @@ nav {
 }
 .heading-image img{
     width: 100%;
+    overflow: hidden;
+}
+.heading-container img:hover {
+    transform: scale(1.3) rotate(-25deg);
+    transition: transform 1s ease-in-out;
 }
 hr {
     border: 1px solid #D1D1D1;
