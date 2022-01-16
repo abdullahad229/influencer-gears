@@ -234,3 +234,44 @@ width: 100%;
 }
 
 }
+
+/* for tablets */
+@media screen and (max-width: 768px) and (min-width:577px) {
+    html,body {
+        overflow-x: hidden;
+        max-width: 100%;
+        scroll-behavior: smooth;
+margin-left: 5px;
+margin-right: 5px;
+    }
+    nav {
+        position: relative;
+        left: 15px;
+    }
+.heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.heading {
+    width: 100%;
+}
+.heading-image {
+    width: 100%;
+}
+.heading-image img {
+    position: relative;
+    top: 200px;
+    width: 100%;
+}
+hr {
+    visibility: hidden;
+}
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
