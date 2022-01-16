@@ -185,3 +185,52 @@ li .fab {
     color: white;
 }
 
+/* Media Queries */
+
+/* for mobile devices */
+@media only screen and (max-width: 576px){
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+        scroll-behavior: smooth;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+     align-items: center;
+
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .heading-container { 
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+    }
+    .heading {
+        width: 80%;
+        text-align: center;
+    }
+    .heading-image img{
+width: 100%;
+    } 
+    hr {
+        visibility: hidden;
+    }
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.address-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+
+}
